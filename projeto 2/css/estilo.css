@@ -1,0 +1,201 @@
+html {
+    background-color: #f8f6f7;
+    font-family:sans-serif;
+}
+
+header {
+    background: url('../img/barcos.webp');
+    background-size: cover;
+    background-position: bottom;
+}
+.caixa-branca {
+    text-align: center;
+	border-radius: 10px;
+	height: 200px;
+    padding: 2em;
+    color: #f8f6f7;
+    font-weight: bold;
+    text-shadow: 1px 0px 5px rgb(0, 0, 0);
+    flex: 20%;
+}
+
+.largura-site {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.caixas-paisagem {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.pesquisa {
+    padding: 1.5em;
+	background: #f8f6f7;
+	border-radius: 15px;
+	height:8em;
+    font-size: 20;
+}
+
+.menu-topo {
+    display: flex;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+.cabecalho-lado-direito {
+    text-align: right;
+    word-spacing: 2.5em;
+    margin: auto;
+    font-size: 17px;
+}
+
+.cabecalho-lado-esquerdo {
+    font-weight: bold;
+}
+
+.menu-parte {
+    flex: 1;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background: #f8f6f7;
+
+}
+
+.rio {
+    background: url(../img/rio.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.bonito {
+    background: url(../img/bonito.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.sao-paulo {
+    background: url(../img/sao-paulo.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.iguacu {
+    background: url(../img/foz.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.maceio {
+    background: url(../img/maceio.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.salvador {
+    background: url(../img/salvador.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.fortaleza {
+    background: url(../img/fortaleza.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.horizonte {
+    background: url(../img/belo-horizonte.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.n1 {
+    color: #f35926;
+    font-size: 2.5em;
+}
+
+.n2 {
+    color: #fcb929;
+    font-size: 2.5em;
+}
+
+.n3 {
+    color: #00b049;
+    font-size: 2.5em;
+}
+
+h1 {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subtitulo > h2 {
+    font-size: 25px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.barcos {
+    padding-top: 4em ;
+    padding-bottom: 9em;
+}
+
+main {
+    margin-bottom: 6em;
+}
+
+input::placeholder {
+    font-size: 20px;
+}
+
+.botao {
+    cursor: pointer;
+    font-weight: bold;
+    color: #f8f6f7;
+    font-size: 20px;
+    border: none;
+    background-color: #ea3d35;
+    border-radius: 5px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0,1fr));
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.caixa-branca > p {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.caixa-branca > h2 {
+    font-size: 18px;
+    margin: 10px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 9px;
+    padding-inline: 40px;
+    border: none;
+    box-shadow: 1px 2px 4px rgb(0, 0, 0);
+}
+
